@@ -97,7 +97,7 @@ class Game {
   double capSpeed(double speed){
     speed *= 40;
     speed = Math.max(speed, 50.0);
-    speed = Math.min(speed, 200.0);
+    speed = Math.min(speed, 300.0);
     return speed;
   }
   

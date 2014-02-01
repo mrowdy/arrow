@@ -6213,7 +6213,7 @@ Game: {"": "Object;width,height,gameTime,gravity,arrow,stopwatch,count,gameOver,
     this.arrow.velocity = new U.Vector(t1 * speed, t2 * speed);
   },
   capSpeed$1: function(speed) {
-    return P.min(P.max(speed * 40, 50), 200);
+    return P.min(P.max(speed * 40, 50), 300);
   },
   generateTargets$0: function() {
     var height, t1, i, t2, target;
